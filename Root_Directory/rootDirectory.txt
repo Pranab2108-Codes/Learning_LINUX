@@ -1,0 +1,11 @@
+
+# --------Root Directory---------- #
+
+
+
+ubuntu@ip-172-31-8-112:~$ cd /
+ubuntu@ip-172-31-8-112:/$ ls
+bin                etc                lib64       opt   sbin                sys
+bin.usr-is-merged  home               lost+found  proc  sbin.usr-is-merged  tmp
+boot               lib                media       root  snap                usr
+dev                lib.usr-is-merged  mnt         run   srv                 var

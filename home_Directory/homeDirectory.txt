@@ -1,0 +1,17 @@
+#------------home Directory-------------#
+
+ 1) The home directory is your personal workspace on a Linux system.
+
+ubuntu@ip-172-31-8-112:~$ cd /
+ubuntu@ip-172-31-8-112:/$ ls
+bin                etc                lib64       opt   sbin                sys
+bin.usr-is-merged  home               lost+found  proc  sbin.usr-is-merged  tmp
+boot               lib                media       root  snap                usr
+dev                lib.usr-is-merged  mnt         run   srv                 var
+ubuntu@ip-172-31-8-112:/$ cd home/
+ubuntu@ip-172-31-8-112:/home$ ls
+ubuntu
+ubuntu@ip-172-31-8-112:/home$ cd ubuntu/
+ubuntu@ip-172-31-8-112:~$
+ubuntu@ip-172-31-8-112:~$ pwd
+/home/ubuntu       <----------- Here we can see in starting the position where we all placed is this position.

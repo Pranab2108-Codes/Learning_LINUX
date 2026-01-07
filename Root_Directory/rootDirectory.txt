@@ -1,6 +1,11 @@
 
-# --------Root Directory---------- #
-
+#--------Root Directory----------#
+ 
+ 1) /(Root directory) is the Linux root filesystem showing standard directories defined by the FHS(Filesystem Hierarchy Standard).
+ 
+ 2) each responsible for a specific part of system operation.
+ 
+ 3) Everything in Linux starts from / . 
 
 
 ubuntu@ip-172-31-8-112:~$ cd /

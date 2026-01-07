@@ -1,0 +1,34 @@
+
+#------------lib Directory-----------#
+
+ /lib contains essential system libraries and core components
+ that are required for:
+
+ 1) the system to boot
+
+ 2) basic commands (ls, cp, bash) to run
+
+ 3) kernel modules to load
+
+ 4) services like networking, security, systemd to work
+
+
+ubuntu@ip-172-31-8-112:/$ ls
+bin                boot  etc   lib                lib64       media  opt   root  sbin                snap  sys  usr
+bin.usr-is-merged  dev   home  lib.usr-is-merged  lost+found  mnt    proc  run   sbin.usr-is-merged  srv   tmp  var
+
+ubuntu@ip-172-31-8-112:/$ cd lib
+ubuntu@ip-172-31-8-112:/lib$ ls
+NetworkManager     dracut             hdparm                                linux-boot-probes  netplan              recovery-mode        ubuntu-advantage
+apparmor           ec2-hibinit-agent  init                                  linux-tools        networkd-dispatcher  rsyslog              ubuntu-release-upgrader
+apt                environment.d      initcpio                              llvm-18            open-iscsi           sasl2                udev
+binfmt.d           file               initramfs-tools                       locale             openssh              sftp-server          udisks2
+byobu              finalrd            kernel                                lsb                os-probes            shim                 ufw
+cloud-init         firmware           klibc                                 man-db             os-release           snapd                update-notifier
+cnf-update-db      girepository-1.0   klibc-sw0VayLfV0hmLGCQE9vyfOnj81g.so  mime               pam.d                software-properties  valgrind
+command-not-found  git-core           libmpathcmd.so.0                      modprobe.d         pcrlock.d            ssl                  x86_64-linux-gnu
+console-setup      gnupg              libmpathpersist.so.0                  modules            pm-utils             sysctl.d
+cryptsetup         gnupg2             libmpathutil.so.0                     modules-load.d     policykit-1          sysstat
+dbus-1.0           groff              libmultipath.so.0                     multipath          polkit-1             systemd
+dhcpcd             grub               linux                                 nagios             python3              sysusers.d
+dpkg               grub-legacy        linux-aws-6.14-tools-6.14.0-1015      needrestart        python3.12           tmpfiles.d

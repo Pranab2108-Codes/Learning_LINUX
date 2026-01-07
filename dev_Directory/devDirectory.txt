@@ -1,0 +1,27 @@
+
+#----------dev Directory----------#
+
+ 1) /dev means The Linux kernel knows about these devices or device-interfaces and exposes them to the system.
+ 
+ 2) They do NOT always mean a physical device is plugged in right now.
+
+ 3) Wrong :  If it’s in /dev, the device is plugged in.
+ 
+ 4) Correct: If it’s in /dev, the kernel knows how to talk to it.
+
+
+ubuntu@ip-172-31-8-112:/$ ls
+bin                boot  etc   lib                lib64       media  opt   root  sbin                snap  sys  usr
+bin.usr-is-merged  dev   home  lib.usr-is-merged  lost+found  mnt    proc  run   sbin.usr-is-merged  srv   tmp  var
+ubuntu@ip-172-31-8-112:/$ cd dev
+ubuntu@ip-172-31-8-112:/dev$ ls
+autofs           disk       initctl       loop4   null    root      tty0   tty17  tty25  tty33  tty41  tty5   tty58  tty9       userfaultfd  vcsa1  vcsu3        xvda
+block            dma_heap   input         loop5   nvram   rtc       tty1   tty18  tty26  tty34  tty42  tty50  tty59  ttyS0      vcs          vcsa2  vcsu4        xvda1
+btrfs-control    ecryptfs   kmsg          loop6   port    rtc0      tty10  tty19  tty27  tty35  tty43  tty51  tty6   ttyS1      vcs1         vcsa3  vcsu5        xvda14
+char             fd         log           loop7   ppp     shm       tty11  tty2   tty28  tty36  tty44  tty52  tty60  ttyS2      vcs2         vcsa4  vcsu6        xvda15
+console          full       loop-control  mapper  psaux   snapshot  tty12  tty20  tty29  tty37  tty45  tty53  tty61  ttyS3      vcs3         vcsa5  vfio         xvda16
+core             fuse       loop0         mcelog  ptmx    stderr    tty13  tty21  tty3   tty38  tty46  tty54  tty62  ttyprintk  vcs4         vcsa6  vga_arbiter  zero
+cpu              hpet       loop1         mem     pts     stdin     tty14  tty22  tty30  tty39  tty47  tty55  tty63  udmabuf    vcs5         vcsu   vhost-net    zfs
+cpu_dma_latency  hugepages  loop2         mqueue  random  stdout    tty15  tty23  tty31  tty4   tty48  tty56  tty7   uinput     vcs6         vcsu1  vhost-vsock
+cuse             hwrng      loop3         net     rfkill  tty       tty16  tty24  tty32  tty40  tty49  tty57  tty8   urandom    vcsa         vcsu2  xen
+

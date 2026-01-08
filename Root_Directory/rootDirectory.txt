@@ -5,10 +5,10 @@
  
  2) each responsible for a specific part of system operation.
  
- 3) Everything in Linux starts from / . 
+ 3) Everything in Linux starts from /. 
 
 
-ubuntu@ip-172-31-8-112:~$ cd /
+ubuntu@ip-172-31-8-112:~$ cd /          <----------- This is the Root directory.
 ubuntu@ip-172-31-8-112:/$ ls
 bin                etc                lib64       opt   sbin                sys
 bin.usr-is-merged  home               lost+found  proc  sbin.usr-is-merged  tmp

@@ -13,7 +13,7 @@ boot               lib                media       root  snap                usr
 dev                lib.usr-is-merged  mnt         run   srv                 var
 
 
-ubuntu@ip-172-31-8-112:/bin$ ls
+ubuntu@ip-172-31-8-112:/bin$ ls                       <------------ This is the bin directory.
  NF                                   on_ac_power
  VGAuthService                        openssl
 '['                                   openvt

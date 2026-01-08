@@ -1,8 +1,8 @@
 
 #----------bin Directory--------------#
 
- 1) /bin contains Here all those shell commands what ever we can use in Linux , so shell interprets these  command through these stored binary codes in this bin folder and let the kernel perform the actual 
-    task as per the need of the user.
+ 1) /bin contains Here all those shell commands what ever we can use in Linux , so shell interprets these  command 
+    through these stored binary codes in this bin folder and let the kernel perform the actual task as per the need of the user.
 
 
 ubuntu@ip-172-31-8-112:~$ cd /

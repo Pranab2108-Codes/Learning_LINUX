@@ -1,0 +1,7 @@
+
+#----------whomai---------#
+
+ 1) Who is the user currently logged in to this system.
+
+ubuntu@ip-172-31-8-112:~$ whoami
+ubuntu   <---- This is the user

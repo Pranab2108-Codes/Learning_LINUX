@@ -9,8 +9,8 @@ bin.usr-is-merged  home               lost+found  proc  sbin.usr-is-merged  tmp
 boot               lib                media       root  snap                usr
 dev                lib.usr-is-merged  mnt         run   srv                 var
 ubuntu@ip-172-31-8-112:/$ cd home/
-ubuntu@ip-172-31-8-112:/home$ ls
-ubuntu
+ubuntu@ip-172-31-8-112:/home$ ls               <-------- This is the home directory.
+ubuntu                                         <-------- inside of this home directory there is the user name as ubuntu.
 ubuntu@ip-172-31-8-112:/home$ cd ubuntu/
 ubuntu@ip-172-31-8-112:~$
 ubuntu@ip-172-31-8-112:~$ pwd

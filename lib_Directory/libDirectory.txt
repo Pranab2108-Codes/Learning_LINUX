@@ -1,16 +1,16 @@
 
 #------------lib Directory-----------#
 
- /lib contains essential system libraries and core components
+ /lib contains essential system libraries and core components,
  that are required for:
 
- 1) the system to boot
+ 1) the system to boot.
 
- 2) basic commands (ls, cp, bash) to run
+ 2) basic commands (ls, cp, bash) to run.
 
- 3) kernel modules to load
+ 3) kernel modules to load.
 
- 4) services like networking, security, systemd to work
+ 4) services like networking, security, systemd to work.
 
 
 ubuntu@ip-172-31-8-112:/$ ls
@@ -18,7 +18,7 @@ bin                boot  etc   lib                lib64       media  opt   root 
 bin.usr-is-merged  dev   home  lib.usr-is-merged  lost+found  mnt    proc  run   sbin.usr-is-merged  srv   tmp  var
 
 ubuntu@ip-172-31-8-112:/$ cd lib
-ubuntu@ip-172-31-8-112:/lib$ ls
+ubuntu@ip-172-31-8-112:/lib$ ls                          <------------- This is the lib directory.
 NetworkManager     dracut             hdparm                                linux-boot-probes  netplan              recovery-mode        ubuntu-advantage
 apparmor           ec2-hibinit-agent  init                                  linux-tools        networkd-dispatcher  rsyslog              ubuntu-release-upgrader
 apt                environment.d      initcpio                              llvm-18            open-iscsi           sasl2                udev

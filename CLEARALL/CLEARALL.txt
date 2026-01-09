@@ -1,0 +1,30 @@
+
+#------------clear------------#
+
+ 1) Clear the whole terminal.
+
+ubuntu@ip-172-31-8-112:~$ whoami
+ubuntu
+ubuntu@ip-172-31-8-112:~$ date
+Wed Jan  7 06:19:40 UTC 2026
+ubuntu@ip-172-31-8-112:~$ uptime
+ 06:22:26 up  2:08,  1 user,  load average: 0.00, 0.00, 0.00
+ubuntu@ip-172-31-8-112:~$ uptime
+ 06:23:07 up  2:09,  1 user,  load average: 0.00, 0.00, 0.00
+
+
+ After we use the clear command 
+ubuntu@ip-172-31-8-112:~$ clear       <--------- This is the clear command.
+ubuntu@ip-172-31-8-112:~$
+
+
+
+
+
+
+                                      <---------- Here we can see that the whole terminal/screen is got blank.
+
+
+
+
+

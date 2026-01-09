@@ -6,4 +6,4 @@
  2) In UTC(Coordinated Universal Time) TimeZone.
 
 ubuntu@ip-172-31-8-112:~$ date        <----------- This is the date command.
-Wed Jan  7 06:19:40 UTC 2026
+Wed Jan  7 06:19:40 UTC 2026          <----------- UTC TimeZone.

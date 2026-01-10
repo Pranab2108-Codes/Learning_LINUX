@@ -1,0 +1,65 @@
+
+#------------man--------------#
+
+ 1) The man command is used to view the manual (documentation) pages for Linux commands, system calls, configuration files, and more.
+
+ubuntu@ip-172-31-8-112:~$ man whoami      <----- Let using man command for whoami .
+WHOAMI(1)                        User Commands                       WHOAMI(1)
+
+NAME
+       whoami - print effective user name
+
+SYNOPSIS
+       whoami [OPTION]...
+
+       --version
+              output version information and exit
+
+AUTHOR
+       Written by Richard Mlynarik.
+
+REPORTING BUGS
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+       Report any translation bugs to <https://translationproject.org/team/>
+
+COPYRIGHT
+       Copyright © 2023 Free Software Foundation, Inc.   License  GPLv3+:  GNU
+       GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+       This  is  free  software:  you  are free to change and redistribute it.
+       There is NO WARRANTY, to the extent permitted by law.
+
+ Manual page whoami(1) line 1/35 75% (press h for help or q to quit).
+
+
+
+ubuntu@ip-172-31-8-112:~$ man cp           <----------Let here man command use for cp .
+CP(1)                            User Commands                           CP(1)
+
+NAME
+       cp - copy files and directories
+
+SYNOPSIS
+       cp [OPTION]... [-T] SOURCE DEST
+       cp [OPTION]... SOURCE... DIRECTORY
+       cp [OPTION]... -t DIRECTORY SOURCE...
+
+DESCRIPTION
+       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       -a, --archive
+              same as -dR --preserve=all
+
+       --attributes-only
+              don't copy the file data, just the attributes
+
+       --backup[=CONTROL]
+              make a backup of each existing destination file
+
+       -b     like --backup but does not accept an argument
+
+       --copy-contents
+ Manual page cp(1) line 1 (press h for help or q to quit).
+

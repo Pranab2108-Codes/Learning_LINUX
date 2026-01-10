@@ -32,7 +32,7 @@ COPYRIGHT
 
 
 
-ubuntu@ip-172-31-8-112:~$ man cp           <----------Let here man command use for cp .
+ubuntu@ip-172-31-8-112:~$ man cp           <---------- Let here man command use for cp .
 CP(1)                            User Commands                           CP(1)
 
 NAME

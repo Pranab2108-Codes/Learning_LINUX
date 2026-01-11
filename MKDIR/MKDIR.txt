@@ -1,0 +1,37 @@
+
+#----------mkdir----------#
+
+ 1) mkdir command is been used for creating the new folder.
+
+ 2) Folders always in Linux displayed in Light Blue colour.
+
+ubuntu@ip-172-31-8-112:~$ ls
+ubuntu@ip-172-31-8-112:~$    <------ Here we can see nothing has been created till now.
+
+ubuntu@ip-172-31-8-112:~$ mkdir DevOps
+ubuntu@ip-172-31-8-112:~$ ls
+DevOps   <--- New folder in the name of DevOps is  created.
+ubuntu@ip-172-31-8-112:~$ mkdir DevOps
+mkdir: cannot create directory ‘DevOps’: File exists  <----- Because We have already Created in the same name so This time it is throwing Error.
+
+ubuntu@ip-172-31-8-112:~$ mkdir -p  DevOps  <--- If we want to avoid this error then we can use -p tag here -p(Denote the path).
+ubuntu@ip-172-31-8-112:~$ ls
+DevOps
+
+ubuntu@ip-172-31-8-112:~$ mkdir -p  Cloud  <------ This tag mainly tells us If there will be same file exist then it will not show any error , if not then it will create a new file.
+ubuntu@ip-172-31-8-112:~$ ls
+Cloud  DevOps          <---------- New file is Created in name of Cloud.
+
+ubuntu@ip-172-31-8-112:~$ mkdir -p DevOps/hello/doston  <------ In this way we can recursively set a path where we want to make our folders.
+ubuntu@ip-172-31-8-112:~$ ls
+Cloud  DevOps
+ubuntu@ip-172-31-8-112:~$ cd DevOps/
+ubuntu@ip-172-31-8-112:~/DevOps$ ls
+hello                                 <--------- Inside DevOps hello got created
+ubuntu@ip-172-31-8-112:~/DevOps$ cd hello/
+ubuntu@ip-172-31-8-112:~/DevOps/hello$ ls
+doston                                <--------- Inside Devops And then inside hello new folder name of doston got Created.
+ubuntu@ip-172-31-8-112:~/DevOps/hello$ cd doston/
+ubuntu@ip-172-31-8-112:~/DevOps/hello/doston$ ls
+ubuntu@ip-172-31-8-112:~/DevOps/hello/doston$ pwd     <------ Present Working Directory.
+/home/ubuntu/DevOps/hello/doston                

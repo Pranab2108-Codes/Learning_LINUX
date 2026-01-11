@@ -3,5 +3,5 @@
 
  1) Who is the user currently logged in to this system.
 
-ubuntu@ip-172-31-8-112:~$ whoami
-ubuntu   <---- This is the user
+ubuntu@ip-172-31-8-112:~$ whoami                           <---------- This is the whoami command.
+ubuntu                                                     <---------- This is the current user who is logged in.

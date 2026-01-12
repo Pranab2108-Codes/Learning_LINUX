@@ -3,13 +3,13 @@
 
  1) Vim is a powerful terminal-based text editor used widely in Linux,If a file doesn't exist then it will create otherwise open that file.
 
-ubuntu@ip-172-31-8-112:~/DevOps$ vim hello.txt  <------------ Open the editor .
-hello sir
+ubuntu@ip-172-31-8-112:~/DevOps$ vim hello.txt  <------------ Open the editor.
+hello sir                 <------------ Contents start.
 hello doston
 
 This vim is quite Cool.
 
-Now sir is going to teach us.
+Now sir is going to teach us.                    <---------------- Total 14 lines of content we wrote.
 
 head
 
@@ -17,63 +17,65 @@ head
 
 tail
 
-commands.                <----------- content end .
+commands.                <----------- Contents end.
 
 
 ubuntu@ip-172-31-8-112:~/DevOps$ cat hello.txt  <---------- cat command helps to see the inside of the file contents.
-hello sir
+hello sir                          <---------- Contents start.
 hello doston
 
 This vim is quite Cool.
 
 Now sir is going to teach us.
 
-head
+head                                           <-------------- Here we can see these 14 lines.
 
  &
 
 tail
 
-commands.
+commands.                          <----------- Contents end.
 
  2) head: The head command is used to display the beginning of data.
 
-ubuntu@ip-172-31-8-112:~/DevOps$ head hello.txt  <----- By default, head displays the first 10 lines of a file. 
-hello sir
+ubuntu@ip-172-31-8-112:~/DevOps$ head hello.txt  <--------------- By default, head displays from the first 10 lines of a file. 
+hello sir                                    <--------------- Contents start,count line No. as : 1.
 hello doston
 
 This vim is quite Cool.
 
-Now sir is going to teach us.
+Now sir is going to teach us.                           <------------ Total 10 lines.
 
 head  
 
- &                                             <--------- End line .
+ &                                             <-------------- Contents end,count line No. as : 10.
 
  3) tail: The tail command displays the last part of a file.
 
-ubuntu@ip-172-31-8-112:~/DevOps$ tail hello.txt   <------------ By default, tail display the last 10 lines of a file.
-                                <--------- Here is an empty line .
+ubuntu@ip-172-31-8-112:~/DevOps$ tail hello.txt   <------------ By default, tail display from the last 10 lines of a file.
+                                <--------- Here is an empty line which is also indicate contents start,count line No. as : 1.
 Now sir is going to teach us.
 
 head  
-
+                                                       <------------- Total 10 lines.
  &
 
 tail
 
-commands.                         <--------- End of line.
+commands.                         <--------- End of the line which indicate contents end,count line No. as : 10.
 
-ubuntu@ip-172-31-8-112:~/DevOps$ head hello.txt -n 5  <----------- In this way we can print particularly n number of lines by using the -n tag from the beginning because of head.
-hello sir
+ubuntu@ip-172-31-8-112:~/DevOps$ head hello.txt -n 5  <----------- In this way we can print particularly 'n' number of lines by using the -n tag from the beginning because of head.
+
+hello sir                       <------------ This is the starting line so count line No. as : 1.
 hello doston
-
+                                                                            <---------- Total 5 lines.
 This vim is quite Cool.
-                                 <----------- End of line.
+                                 <----------- End of the line so we can say count line No. as : 5.
 
 ubuntu@ip-172-31-8-112:~/DevOps$ tail hello.txt -n 3  <----- In this way we can print particularly n number of lines by using the -n tag from the last part of file because of tail.
-tail
 
-commands.   <------- End of line.
+tail                            <------------ This is the start line so count line No. as : 1.
+                                                                               <----------------- Total 3 lines we can see. 
+commands.                       <------------- End of the line so count line No. as : 3.
 
 

@@ -8,7 +8,7 @@
 ubuntu@ip-172-31-8-112:~$ ls
 ubuntu@ip-172-31-8-112:~$    <------ Here we can see nothing has been created till now.
 
-ubuntu@ip-172-31-8-112:~$ mkdir DevOps
+ubuntu@ip-172-31-8-112:~$ mkdir DevOps        <---------- This is how we use mkdir command.
 ubuntu@ip-172-31-8-112:~$ ls
 DevOps   <--- New folder in the name of DevOps is  created.
 ubuntu@ip-172-31-8-112:~$ mkdir DevOps
@@ -19,6 +19,7 @@ ubuntu@ip-172-31-8-112:~$ ls
 DevOps
 
 ubuntu@ip-172-31-8-112:~$ mkdir -p  Cloud  <------ This tag mainly tells us If there will be same file exist then it will not show any error , if not then it will create a new file.
+
 ubuntu@ip-172-31-8-112:~$ ls
 Cloud  DevOps          <---------- New file is Created in name of Cloud.
 
@@ -27,7 +28,7 @@ ubuntu@ip-172-31-8-112:~$ ls
 Cloud  DevOps
 ubuntu@ip-172-31-8-112:~$ cd DevOps/
 ubuntu@ip-172-31-8-112:~/DevOps$ ls
-hello                                 <--------- Inside DevOps hello got created
+hello                                 <--------- Inside DevOps hello got created.
 ubuntu@ip-172-31-8-112:~/DevOps$ cd hello/
 ubuntu@ip-172-31-8-112:~/DevOps/hello$ ls
 doston                                <--------- Inside Devops And then inside hello new folder name of doston got Created.

@@ -1,0 +1,79 @@
+
+#----------vim editor----------#
+
+ 1) Vim is a powerful terminal-based text editor used widely in Linux,If a file doesn't exist then it will create otherwise open that file.
+
+ubuntu@ip-172-31-8-112:~/DevOps$ vim hello.txt  <------------ Open the editor .
+hello sir
+hello doston
+
+This vim is quite Cool.
+
+Now sir is going to teach us.
+
+head
+
+ &
+
+tail
+
+commands.                <----------- content end .
+
+
+ubuntu@ip-172-31-8-112:~/DevOps$ cat hello.txt  <---------- cat command helps to see the inside of the file contents.
+hello sir
+hello doston
+
+This vim is quite Cool.
+
+Now sir is going to teach us.
+
+head
+
+ &
+
+tail
+
+commands.
+
+ 2) head: The head command is used to display the beginning of data.
+
+ubuntu@ip-172-31-8-112:~/DevOps$ head hello.txt  <----- By default, head displays the first 10 lines of a file. 
+hello sir
+hello doston
+
+This vim is quite Cool.
+
+Now sir is going to teach us.
+
+head  
+
+ &                                             <--------- End line .
+
+ 3) tail: The tail command displays the last part of a file.
+
+ubuntu@ip-172-31-8-112:~/DevOps$ tail hello.txt   <------------ By default, tail display the last 10 lines of a file.
+                                <--------- Here is an empty line .
+Now sir is going to teach us.
+
+head  
+
+ &
+
+tail
+
+commands.                         <--------- End of line.
+
+ubuntu@ip-172-31-8-112:~/DevOps$ head hello.txt -n 5  <----------- In this way we can print particularly n number of lines by using the -n tag from the beginning because of head.
+hello sir
+hello doston
+
+This vim is quite Cool.
+                                 <----------- End of line.
+
+ubuntu@ip-172-31-8-112:~/DevOps$ tail hello.txt -n 3  <----- In this way we can print particularly n number of lines by using the -n tag from the last part of file because of tail.
+tail
+
+commands.   <------- End of line.
+
+

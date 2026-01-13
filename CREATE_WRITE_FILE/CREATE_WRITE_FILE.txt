@@ -1,0 +1,34 @@
+
+#------------Creating and Writing the contents in to the File-------------#
+
+ 1) touch : creates a file if it doesn’t exist, or updates if it does.
+
+ubuntu@ip-172-31-8-112:~$ cd DevOps/
+ubuntu@ip-172-31-8-112:~/DevOps$ touch hello.txt  <----- Using touch command here to Create a file
+ubuntu@ip-172-31-8-112:~/DevOps$ ls
+hello  hello.txt
+
+ 2) > : prints text and saves it into a file , If the file doesn't exist then it will create a new one
+
+ubuntu@ip-172-31-8-112:~/DevOps$ echo "hello doston" > hello.txt  <---- Displaying in screen as well as writing in a file.
+ubuntu@ip-172-31-8-112:~/DevOps$ cat hello.txt  
+hello doston
+
+ubuntu@ip-172-31-8-112:~/DevOps$ echo "hello sir" > hello.txt  <------ hello.txt already exist so it will Overwrite this text "hello sir" in hello.txt Otherwise it would have created a new one.
+ubuntu@ip-172-31-8-112:~/DevOps$ cat hello.txt
+hello sir
+
+ubuntu@ip-172-31-8-112:~/DevOps$ echo "Kyun re" > me.txt  <---- me.txt didn't exist so it created as well as displayed in screen.
+ubuntu@ip-172-31-8-112:~/DevOps$ ls
+hello  hello.txt  me.txt
+ubuntu@ip-172-31-8-112:~/DevOps$ cat me.txt
+Kyun re
+
+ 3) >> : It appends the text hello doston to the file hello.txt , If the file does not exist, it creates it.
+
+ubuntu@ip-172-31-8-112:~/DevOps$ echo "hello doston" >> hello.txt <------ In this way we can append the contents to the hello.txt file. Just how we did hello doston after hello sir.
+ubuntu@ip-172-31-8-112:~/DevOps$ cat hello.txt 
+hello sir
+hello doston
+
+

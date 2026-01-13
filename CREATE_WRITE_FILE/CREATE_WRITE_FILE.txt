@@ -15,7 +15,7 @@ ubuntu@ip-172-31-8-112:~/DevOps$ cat hello.txt                   <--------------
 
 hello doston                            <--------- Here we can see the same content "hello doston".
 
-ubuntu@ip-172-31-8-112:~/DevOps$ echo "hello sir" > hello.txt  <--------------- hello.txt already exist so it will Overwrite this text "hello sir" in hello.txt Otherwise it would have created a new one.
+ubuntu@ip-172-31-8-112:~/DevOps$ echo "hello sir" > hello.txt  <--------------- hello.txt already exist so it will Overwrite this text "hello sir" in hello.txt Otherwise it would have created a new file in the name of "hello.txt".
 
 ubuntu@ip-172-31-8-112:~/DevOps$ cat hello.txt
 hello sir

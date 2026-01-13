@@ -14,6 +14,7 @@ ubuntu@ip-172-31-8-112:~$ uptime
 
 
  After we use the clear command 
+
 ubuntu@ip-172-31-8-112:~$ clear       <--------- This is the clear command.
 ubuntu@ip-172-31-8-112:~$
 

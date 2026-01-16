@@ -1,0 +1,52 @@
+
+#-------------nano editor-------------#
+
+ 1) nano : Nano is a simple, beginner-friendly, terminal-based text editor in Linux, If a file doesn't exist then it will create a new onw otherwise open that file.
+
+ubuntu@ip-172-31-8-112:~/DevOps$ nano demo.txt  <-------- Here we have used this nano editor.
+ubuntu@ip-172-31-8-112:~/DevOps$ ls
+demo.txt  hello  hello.txt
+
+This is a new demo file opened by nano editor .
+Herewe don't need to to press i for insert , we can directly start typing
+
+
+
+
+
+
+
+                                                                              <------- This is how nano editor looks, like
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 [ Read 2 lines ]
+^G Help      ^O Write Out ^W Where Is  ^K Cut       ^T Execute   ^C Location
+^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^/ Go To Line  <------- To exit from here we have to press ctrl + x .
+
+Save modified buffer?
+ Y Yes
+ N No           ^C Cancel                     <---------- Then it will ask us to save or not .
+
+
+File Name to Write: demo.txt
+^G Help             M-D DOS Format      M-A Append          M-B Backup File
+^C Cancel           M-M Mac Format      M-P Prepend         ^T Browse       <------- Then it will ask us to rename this file or not .
+
+ubuntu@ip-172-31-8-112:~/DevOps$ cat demo.txt    <--------- We can see the contents.
+This is a new demo file opened by nano editor .
+Herewe don't need to to press i for insert , we can directly start typing.
+
+

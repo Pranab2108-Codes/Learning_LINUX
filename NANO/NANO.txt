@@ -41,7 +41,7 @@ Save modified buffer?
  N No           ^C Cancel                     <---------- Then it will ask us to save or not.
 
 
-File Name to Write: demo.txt                  <--------------- We can rename this file name if we want.
+File Name to Write: demo.txt                  <--------------- Here it will ask us to rename the file name if we want then we can do that also otherwise we can keep it as it was named while creation.
 
 ^G Help             M-D DOS Format      M-A Append          M-B Backup File
 ^C Cancel           M-M Mac Format      M-P Prepend         ^T Browse       

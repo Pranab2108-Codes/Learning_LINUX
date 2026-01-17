@@ -33,8 +33,8 @@ Herewe don't need to to press i for insert , we can directly start typing
 
 
                                  [ Read 2 lines ]
-^G Help      ^O Write Out ^W Where Is  ^K Cut       ^T Execute   ^C Location
-^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^/ Go To Line  <------- To exit from here we have to press ctrl + x.
+^G Help      ^O Write Out ^W Where Is  ^K Cut       ^T Execute   ^C Location     <------- To exit from here we have to press ctrl + x.
+^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^/ Go To Line  
 
 Save modified buffer?                         <---------- Then it will ask us to save or not.
  Y Yes

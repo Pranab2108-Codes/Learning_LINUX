@@ -16,7 +16,7 @@ Herewe don't need to to press i for insert , we can directly start typing
 
 
 
-                                                                              <------- This is how nano editor looks, like
+                                                                              <---------- This is how nano editor looks, like
 
 
 

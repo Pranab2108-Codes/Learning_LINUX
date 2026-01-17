@@ -5,7 +5,7 @@
 
 ubuntu@ip-172-31-8-112:~/DevOps$ nano demo.txt  <-------- Here we have used this nano editor.
 ubuntu@ip-172-31-8-112:~/DevOps$ ls
-demo.txt  hello  hello.txt                      <------- Here we can see the demo.txt got created because it was not exist till that.
+demo.txt  hello  hello.txt                      <------- Here we can see the "demo.txt" got created because it was not exist till that.
 
 This is a new demo file opened by nano editor .
 Herewe don't need to to press i for insert , we can directly start typing
@@ -36,14 +36,14 @@ Herewe don't need to to press i for insert , we can directly start typing
 ^G Help      ^O Write Out ^W Where Is  ^K Cut       ^T Execute   ^C Location
 ^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^/ Go To Line  <------- To exit from here we have to press ctrl + x.
 
-Save modified buffer?
+Save modified buffer?                         <---------- Then it will ask us to save or not.
  Y Yes
- N No           ^C Cancel                     <---------- Then it will ask us to save or not.
+ N No           ^C Cancel                    
 
 
 File Name to Write: demo.txt                  <--------------- Here it will ask us to rename the file name if we want then we can do that also otherwise we can keep it as it was named while creation.
 
-^G Help             M-D DOS Format      M-A Append          M-B Backup File
+^G Help             M-D DOS Format      M-A Append          M-B Backup File    <--------- To keep the file name same as it was while creation of the file,we simply need to press enter.
 ^C Cancel           M-M Mac Format      M-P Prepend         ^T Browse       
 
 ubuntu@ip-172-31-8-112:~/DevOps$ cat demo.txt    <--------- We can see the contents.

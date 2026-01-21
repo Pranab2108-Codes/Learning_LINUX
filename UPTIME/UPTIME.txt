@@ -4,5 +4,6 @@
  1) uptime tells you how long your system has been running since the last boot and gives a quick snapshot of system load.
 
 
+
 ubuntu@ip-172-31-8-112:~$ uptime     <-------- This is the uptime command.
- 06:22:26 up  2:08,  1 user,  load average: 0.00, 0.00, 0.00  <---- Here we can see from 2hr it's been logged in to the server, load is 0 and 1 user is been there in to the server yet.
+ 06:22:26 up  2:08,  1 user,  load average: 0.00, 0.00, 0.00  <-------- Here we can see from 2hr it's been logged in to the server, load is 0 and 1 user is been there in to the server yet.
